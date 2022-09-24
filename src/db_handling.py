@@ -10,24 +10,37 @@ def connect(host='localhost', port=8082, user='root', password='example'):
 
 
 def get_csv_files(path):
+    print(__file__)
     all_files = os.listdir(path)    
     return list(filter(lambda f: f.endswith('.csv'), all_files))
+
+
+def get_files_to_extension(path, extension):
+    file_paths = []
+    os.walk(path)
+    for root, dirs_list, files_list in os.walk(path):
+        for file_name in files_list:
+          if os.path.splitext(file_name)[-1] == extension:
+             file_paths.append(os.path.join(root, file_name))
+    return file_paths 
 
 
 def insert_from_csv(client, csv_path, db_name, coll_name):
     db = client[db_name]
     coll = db[coll_name]
+    coll.drop()
     data = pd.read_csv(csv_path)
     d = data.to_dict(orient='records')
-    coll.insert_many(d)
-    #return coll.count()
+    return coll.insert_many(d)
 
 
 if __name__ == "__main__":
-    client = connect()
-    print(client)
-    print('Connected!')
-    test_file = get_csv_files('/home/luca/ts-mongodb/data/2014/06')
-    print(test_file[0])
-    insert_from_csv(client, '/home/luca/ts-mongodb/data/2014/06/' + test_file[0], 'db', 'prices')
-    print('Inserted rows from csv!')
+   from os.path import dirname, abspath 
+   data_path = dirname(dirname(abspath(__file__))) + '/data'
+   files = get_files_to_extension(data_path, '.csv')
+   client = connect()
+   print('Connected!')
+   
+   for f in files[:10]:
+       insert_from_csv(client, f, 'db', 'prices')
+   print('Inserted rows from csv!')
