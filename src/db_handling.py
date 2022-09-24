@@ -18,5 +18,7 @@ def insert_from_csv(client, csv_path, db_name, coll_name):
 
 
 if __name__ == "__main__":
-    connect()
+    ret = connect()
     print('Connected!')
+    print(ret)
+    print(type(ret))
