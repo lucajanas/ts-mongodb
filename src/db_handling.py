@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
     ################################################################
 
-    # reading and inserting price data
+    # reading and inserting station data
     station_path = dirname(dirname(abspath(__file__))) + '/data/stations'
     files = get_files_to_extension(station_path, '.csv')
 
