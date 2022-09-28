@@ -1,6 +1,5 @@
 from pymongo import MongoClient
 import pandas as pd
-import json
 import os
 
 # create database connection from given credentials and return db client
@@ -9,12 +8,7 @@ def connect(host='localhost', port=8082, user='root', password='example'):
     return MongoClient(con_string)
 
 
-def get_csv_files(path):
-    print(__file__)
-    all_files = os.listdir(path)    
-    return list(filter(lambda f: f.endswith('.csv'), all_files))
-
-
+# get all files in given path and sub directories which match given file extension
 def get_files_to_extension(path, extension):
     file_paths = []
     os.walk(path)
@@ -25,13 +19,22 @@ def get_files_to_extension(path, extension):
     return file_paths 
 
 
+# write csv file in given path to given collection in database
 def insert_from_csv(client, csv_path, db_name, coll_name):
     db = client[db_name]
     coll = db[coll_name]
     coll.drop()
-    data = pd.read_csv(csv_path)
-    d = data.to_dict(orient='records')
-    return coll.insert_many(d)
+
+    db.create_collection(
+        coll_name,
+        timeseries = {
+          "timeField": "date",
+        }
+    )
+
+    data = pd.read_csv(csv_path).to_dict(orient='records')
+    coll = db[coll_name]
+    return coll.insert_many(data)
 
 
 if __name__ == "__main__":
