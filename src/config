@@ -1,0 +1,9 @@
+
+ingestion = {
+    "start_ingestion":True,     # Enable or disable ingestion
+    "type":"month",             # available: "month","year","all"
+    "month":"06",               # available: "01","02","03", ... , "12"
+    "year": "2014",             # available: "2014","2015", ... , "2022"
+    "progress_batch_size": 10,  # batch size for comment ingestion progress
+    "drop_coll":True            # drop complete collection if started new ingestion
+}
