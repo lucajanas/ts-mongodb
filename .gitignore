@@ -118,6 +118,7 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
+/site
 
 # mypy
 .mypy_cache/
@@ -126,4 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-.idea/
+
+
+# ignore  A.A
+.vscode
+src/test*
+data/*
