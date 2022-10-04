@@ -70,28 +70,11 @@ def log_ingestion(type):
         print(tmp)
          
       
-def write_system_infos(system_info):
-    
-    uname = platform.uname()
-    cpufreq = psutil.cpu_freq()
-     
-    system_info = {
-    'system':uname.system,
-    'release':uname.release,
-    'version':uname.version,
-    'machine':uname.machine,
-    'processor':uname.processor,
-    'processor_detail':cpuinfo.get_cpu_info()["brand_raw"], 
-    'physical_cores':psutil.cpu_count(logical=False),
-    'max_frequency':f'{cpufreq.max:.2f}Mhz'
-}
-    
-    
+
 def create_timeseries_collection(db, coll_name, time_field='date',meta_field='station_uuid'):
     db.command('create', coll_name, 
                timeseries={ 'timeField': time_field, 'metaField': meta_field })
     
-
 
 def check_ingestion_config(file_name,coll_name) -> bool:
     """ Files must have this format: 2014-06-08-prices.csv """

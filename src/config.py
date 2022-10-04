@@ -4,7 +4,7 @@ ingestion = {
     "start_ingestion_stations":False,  # Enable or disable ingestion for collection stations
     "drop_coll_prices":True,           # drop(delete) complete price collection if started new ingestion
     "drop_coll_stations":True,         # drop(delete)  complete price collection if started new ingestion
-    "type_prices":"year",              # available: "month","year","all"
+    "type_prices":"month",              # available: "month","year","all"
     "year_prices": "2015",             # available: "2014","2015", ... , "2022"
     "month_prices":"06",               # available: "01","02","03", ... , "12" (only if stations_type=month)
     "type_stations":"month",           # available: "month","year","all"
