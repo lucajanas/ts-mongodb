@@ -50,22 +50,9 @@ if __name__ == "__main__":
     client = connect()
     print('Connected!')
     ing.ingestion_handling(client,files,'prices')
-    
     ################################################################
 
     # reading and inserting station data
     station_path = dirname(dirname(abspath(__file__))) + '/data/tankerkoenig-data/stations'
     files = get_files_to_extension(station_path, '.csv', 'stations')
     ing.ingestion_handling(client,files,'stations')
-
-
-
-
-
-
-
-
-
-
-
-
