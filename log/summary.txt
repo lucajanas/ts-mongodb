@@ -1,4 +1,4 @@
-<< Ingestion mongoDB >>
+<< Ingestion mongoDB collection: prices >>
 
 Mothly (year: 2015, month: 06):      446.21 sec.   / 0:07:26.210
 Annual (year: 2015):                 13465.98 sec. / 3:44:25.980
