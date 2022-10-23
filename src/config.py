@@ -4,7 +4,7 @@ ingestion = {
     "start_ingestion_stations":False,                # Enable or disable ingestion for collection stations
     "drop_coll_prices":False,                       # drop(delete) complete price collection if started new ingestion
     "drop_coll_stations":True,                      # drop(delete)  complete price collection if started new ingestion
-    "type_prices":"all",                            # available: "month","year","all"
+    "type_prices":"month",                            # available: "month","year","all"
     "year_prices": "2015",                          # available: "2014","2015", ... , "2022"
     "month_prices":"06",                            # available: "01","02","03", ... , "12" (only if stations_type=month)
     "type_stations":"specific",                     # available: "month","year","all","specific"
@@ -27,8 +27,9 @@ query = {
    "year_end":2015,
    "month_end":1,
    "day_end":1,
-   "hour_end":1,
-   "minute_end":0,
-   "second_end":0,    
-   "post_code":"32049"
+   "hour_end":23,
+   "minute_end":59,
+   "second_end":59,    
+   "post_code":"32049",
+   "change_type":"e5change"                      # available: "dieselchange", "e5change", "e10change", "all"
 }
