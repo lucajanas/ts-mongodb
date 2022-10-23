@@ -8,7 +8,7 @@ import time
 import db_handling as dbh
 import psutil
 import platform
-import cpuinfo
+# import cpuinfo
 import datetime
 
 ingestion_log = {
@@ -46,7 +46,7 @@ def log_ingestion(type):
         'version':uname.version,
         'machine':uname.machine,
         'processor':uname.processor,
-        'processor_detail':cpuinfo.get_cpu_info()["brand_raw"], 
+        # 'processor_detail':cpuinfo.get_cpu_info()["brand_raw"], 
         'physical_cores':psutil.cpu_count(logical=False),
         'max_frequency':f'{cpufreq.max:.2f}Mhz'
         }
