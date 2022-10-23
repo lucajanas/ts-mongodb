@@ -128,7 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# ignore for A.A
+
+# ignore  A.A
 .vscode
-test
 src/test*
+data/*
