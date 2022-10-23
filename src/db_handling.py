@@ -5,6 +5,7 @@ import os
 import config
 import time
 import ingestion as ing
+import query
 import datetime
 
 # create database connection from given credentials and return db client
@@ -44,15 +45,21 @@ def insert_from_csv(client, csv_path, db_name, coll_name,convert_date=False):
 if __name__ == "__main__":
     
     from os.path import dirname, abspath
-    # reading and inserting price data
+    # inserting price data
     price_path = dirname(dirname(abspath(__file__))) + '/data/tankerkoenig-data/prices'
     files = get_files_to_extension(price_path, '.csv', 'prices')
     client = connect()
     print('Connected!')
-    ing.ingestion_handling(client,files,'prices')
+    ing.ingestion_handling(client, files, 'prices')
+    
     ################################################################
 
-    # reading and inserting station data
+    # inserting station data
     station_path = dirname(dirname(abspath(__file__))) + '/data/tankerkoenig-data/stations'
     files = get_files_to_extension(station_path, '.csv', 'stations')
-    ing.ingestion_handling(client,files,'stations')
+    ing.ingestion_handling(client, files, 'stations')
+    
+    ################################################################
+    
+    # query 
+    query.query_handling(client)

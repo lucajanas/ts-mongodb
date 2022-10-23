@@ -1,0 +1,302 @@
+{
+    "2022-10-23 14:59:47": {
+        "configuration": {
+            "year_start": 2015,
+            "month_start": 1,
+            "day_start": 1,
+            "hour_start": 0,
+            "minute_start": 0,
+            "second_start": 0,
+            "year_end": 2015,
+            "month_end": 1,
+            "day_end": 1,
+            "hour_end": 23,
+            "minute_end": 59,
+            "second_end": 59,
+            "post_code": "32049",
+            "change_type": "e5change",
+            "print_interested_stations": true
+        },
+        "log": {
+            "start_timestamp": 1666529989.9027712,
+            "start_time": "2022-10-23 14:59:47",
+            "end_time": "2022-10-23 14:59:59",
+            "elapsed_time": 11.3,
+            "number_of_price_changes": 21
+        }
+    },
+    "2022-10-23 15:07:42": {
+        "configuration": {
+            "year_start": 2015,
+            "month_start": 1,
+            "day_start": 1,
+            "hour_start": 0,
+            "minute_start": 0,
+            "second_start": 0,
+            "year_end": 2015,
+            "month_end": 1,
+            "day_end": 1,
+            "hour_end": 23,
+            "minute_end": 59,
+            "second_end": 59,
+            "post_code": "32049",
+            "change_type": "e5change",
+            "print_interested_stations": true,
+            "save_all_stations_with_changes": true
+        },
+        "log": {
+            "start_timestamp": 1666530462.9066925,
+            "start_time": "2022-10-23 15:07:42",
+            "end_time": "2022-10-23 15:07:44",
+            "elapsed_time": 1.5,
+            "number_of_price_changes": 21,
+            "list_all_stations_with_changes": []
+        }
+    },
+    "2022-10-23 15:09:09": {
+        "configuration": {
+            "year_start": 2015,
+            "month_start": 1,
+            "day_start": 1,
+            "hour_start": 0,
+            "minute_start": 0,
+            "second_start": 0,
+            "year_end": 2015,
+            "month_end": 1,
+            "day_end": 1,
+            "hour_end": 23,
+            "minute_end": 59,
+            "second_end": 59,
+            "post_code": "32049",
+            "change_type": "e5change",
+            "print_interested_stations": true,
+            "save_all_stations_with_changes": true
+        },
+        "log": {
+            "start_timestamp": 1666530549.1601064,
+            "start_time": "2022-10-23 15:09:09",
+            "end_time": "2022-10-23 15:09:10",
+            "elapsed_time": 1.27,
+            "number_of_price_changes": 21,
+            "list_all_stations_with_changes": []
+        }
+    },
+    "2022-10-23 15:11:34": {
+        "configuration": {
+            "year_start": 2015,
+            "month_start": 1,
+            "day_start": 1,
+            "hour_start": 0,
+            "minute_start": 0,
+            "second_start": 0,
+            "year_end": 2015,
+            "month_end": 1,
+            "day_end": 1,
+            "hour_end": 23,
+            "minute_end": 59,
+            "second_end": 59,
+            "post_code": "32049",
+            "change_type": "e5change",
+            "print_interested_stations": true,
+            "save_all_stations_with_changes": true
+        },
+        "log": {
+            "start_timestamp": 1666530694.7191832,
+            "start_time": "2022-10-23 15:11:34",
+            "end_time": "2022-10-23 15:11:35",
+            "elapsed_time": 1.26,
+            "number_of_price_changes": 21,
+            "list_all_stations_with_changes": [
+                {
+                    "date": "2015-01-01 04:06:01",
+                    "uuid": "a78780a2-c177-4df1-b54c-7cb69677c284",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Mindener Stra\u00dfe",
+                    "house_number": "115"
+                },
+                {
+                    "date": "2015-01-01 04:06:01",
+                    "uuid": "ed5ba860-debc-456e-94d8-97996368a866",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "MINDENER STR. 71",
+                    "house_number": " "
+                },
+                {
+                    "date": "2015-01-01 05:02:01",
+                    "uuid": "ed5ba860-debc-456e-94d8-97996368a866",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "MINDENER STR. 71",
+                    "house_number": " "
+                },
+                {
+                    "date": "2015-01-01 04:34:01",
+                    "uuid": "5d3c8803-6a43-4c86-b7b4-98b8c04561aa",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Bismarckstr.",
+                    "house_number": "14"
+                },
+                {
+                    "date": "2015-01-01 05:26:01",
+                    "uuid": "5d3c8803-6a43-4c86-b7b4-98b8c04561aa",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Bismarckstr.",
+                    "house_number": "14"
+                },
+                {
+                    "date": "2015-01-01 05:22:01",
+                    "uuid": "999e9028-17f8-4b22-9942-b2ad37412ead",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Mindener Stra\u00dfe",
+                    "house_number": "179"
+                },
+                {
+                    "date": "2015-01-01 06:14:01",
+                    "uuid": "999e9028-17f8-4b22-9942-b2ad37412ead",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Mindener Stra\u00dfe",
+                    "house_number": "179"
+                },
+                {
+                    "date": "2015-01-01 09:14:01",
+                    "uuid": "ed5ba860-debc-456e-94d8-97996368a866",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "MINDENER STR. 71",
+                    "house_number": " "
+                },
+                {
+                    "date": "2015-01-01 09:38:01",
+                    "uuid": "5d3c8803-6a43-4c86-b7b4-98b8c04561aa",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Bismarckstr.",
+                    "house_number": "14"
+                },
+                {
+                    "date": "2015-01-01 12:30:01",
+                    "uuid": "999e9028-17f8-4b22-9942-b2ad37412ead",
+                    "dieselchange": 0,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Mindener Stra\u00dfe",
+                    "house_number": "179"
+                },
+                {
+                    "date": "2015-01-01 13:14:01",
+                    "uuid": "ed5ba860-debc-456e-94d8-97996368a866",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "MINDENER STR. 71",
+                    "house_number": " "
+                },
+                {
+                    "date": "2015-01-01 13:22:01",
+                    "uuid": "5d3c8803-6a43-4c86-b7b4-98b8c04561aa",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Bismarckstr.",
+                    "house_number": "14"
+                },
+                {
+                    "date": "2015-01-01 13:38:01",
+                    "uuid": "5d3c8803-6a43-4c86-b7b4-98b8c04561aa",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Bismarckstr.",
+                    "house_number": "14"
+                },
+                {
+                    "date": "2015-01-01 13:30:01",
+                    "uuid": "a78780a2-c177-4df1-b54c-7cb69677c284",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Mindener Stra\u00dfe",
+                    "house_number": "115"
+                },
+                {
+                    "date": "2015-01-01 14:42:01",
+                    "uuid": "999e9028-17f8-4b22-9942-b2ad37412ead",
+                    "dieselchange": 0,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Mindener Stra\u00dfe",
+                    "house_number": "179"
+                },
+                {
+                    "date": "2015-01-01 17:34:01",
+                    "uuid": "999e9028-17f8-4b22-9942-b2ad37412ead",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Mindener Stra\u00dfe",
+                    "house_number": "179"
+                },
+                {
+                    "date": "2015-01-01 19:02:01",
+                    "uuid": "5d3c8803-6a43-4c86-b7b4-98b8c04561aa",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Bismarckstr.",
+                    "house_number": "14"
+                },
+                {
+                    "date": "2015-01-01 20:02:01",
+                    "uuid": "a78780a2-c177-4df1-b54c-7cb69677c284",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Mindener Stra\u00dfe",
+                    "house_number": "115"
+                },
+                {
+                    "date": "2015-01-01 21:02:01",
+                    "uuid": "5d3c8803-6a43-4c86-b7b4-98b8c04561aa",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Bismarckstr.",
+                    "house_number": "14"
+                },
+                {
+                    "date": "2015-01-01 22:10:01",
+                    "uuid": "999e9028-17f8-4b22-9942-b2ad37412ead",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "Mindener Stra\u00dfe",
+                    "house_number": "179"
+                },
+                {
+                    "date": "2015-01-01 22:10:01",
+                    "uuid": "ed5ba860-debc-456e-94d8-97996368a866",
+                    "dieselchange": 1,
+                    "e5change": 1,
+                    "e10change": 1,
+                    "street": "MINDENER STR. 71",
+                    "house_number": " "
+                }
+            ]
+        }
+    }
+}
