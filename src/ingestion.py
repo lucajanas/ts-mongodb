@@ -78,6 +78,12 @@ def create_timeseries_collection(db, coll_name, time_field='date',meta_field='st
 
 def check_ingestion_config(file_name,coll_name) -> bool:
     """ Files must have this format: 2014-06-08-prices.csv """
+    if config.ingestion[f'type_{coll_name}'] == 'specific':
+        if config.ingestion['specific_station'] == file_name:
+            return True
+        else:
+            return False
+        
     if config.ingestion[f'type_{coll_name}'] == 'all':
         return True
     name_splitted = file_name.split('-')

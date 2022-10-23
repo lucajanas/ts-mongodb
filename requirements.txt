@@ -1,3 +1,4 @@
 pandas
 pymongo
-cpuinfo
+psutil
+py-cpuinfo
