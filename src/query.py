@@ -1,24 +1,74 @@
 
-from pymongo import MongoClient
-import pandas as pd
-import json
-import os
+from asyncio.windows_events import NULL
 import config
-import time
-import ingestion as ing
 import datetime
-import isodate
-import config
-import db_handling as dbh
+import json
+import time
 
-if __name__ == "__main__":
+query_log = {
+    'start_timestamp':0,
+    'start_time':'',
+    'end_time':'',
+    'elapsed_time':'',
+    'number_of_price_changes':0,
+    'list_all_stations_with_changes':[]
+}
+
+def log_query(type, parsed_list=NULL):
     
-    client = dbh.connect()
-    print('Connected!')
+    if type == 'start':
+        now = datetime.datetime.now()
+        query_log['start_time'] = now.strftime("%Y-%m-%d %H:%M:%S")
+        tmp = f'\n\n{"="*40} Start query on {query_log["start_time"]} {"="*40}\n\n'
+        query_log['start_timestamp'] = time.time()
+        print(tmp)
+        
+    elif type == 'end':
+        
+        now = datetime.datetime.now()
+        query_log['end_time'] = now.strftime("%Y-%m-%d %H:%M:%S")
+        tmp = f'\n{"="*40} End query on {query_log["end_time"]} {"="*40}\n\n'
+        
+        query_log['elapsed_time'] = round(time.time() - query_log['start_timestamp'] ,2)
+        query_log['number_of_price_changes'] = len(parsed_list)
+        
+        
+        if config.query['save_all_stations_with_changes'] == True:
+            for x in parsed_list:
+                query_log ['list_all_stations_with_changes'].append(x)
+        
+        
+        f_query_log = open('./log/query_log.json','r')
+        # returns JSON object as a dictionary
+        log_dic = json.load(f_query_log)
+        f_query_log.close()
+        
+        # write all logs
+        log_dic[query_log['start_time']]={
+     
+            'configuration':config.query,
+            'log':query_log
+        }
+        
+        # Opening JSON file for write
+        f_query_log = open('./log/query_log.json','w')
+        json.dump(log_dic , f_query_log)
+        f_query_log.close()
+        print(tmp)
+
+
+
+
+def query_handling(client):
     
+    if config.control['start_query'] == False:
+        print("Skip query")
+        return
+    
+    log_query('start')
     mydb = client['db']
     mycol_stations = mydb['stations']
-
+    
     # query stations  (Meschede: 59872)
     # uuid, name, brand, street, house_number, post_code, city,latitude, longitude
     myquery = { 'post_code': config.query['post_code'] }
@@ -74,12 +124,13 @@ if __name__ == "__main__":
                                     'e10change':x['e10change'],
                                     'street':  stations[x['station_uuid']]['street'],
                                     'house_number':stations[x['station_uuid']]['house_number']})
-                
+    
+    log_query('end',parsed_list)            
     if config.query['print_interested_stations'] == True:           
         for x in parsed_list:
             print(x)
             print('')
-    print(f'number of price changes: {len(parsed_list)}')
-    print("--- end query ---")
-    
+           
+    print(f'number of price changes: {len(parsed_list)}')  
+
     

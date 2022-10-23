@@ -102,16 +102,16 @@ def check_ingestion_config(file_name,coll_name) -> bool:
     
 def ingestion_handling(client,files,coll_name):
     
-    log_ingestion('start')
-    start_time_main = time.time()
-    start_time_tmp = time.time()
-    elapsed_time_tmp = 0
-    
-    if config.ingestion[f'start_ingestion_{coll_name}'] == False:
+    if config.control[f'start_ingestion_{coll_name}'] == False:
         print(f'Skip ingestion collection {coll_name}')
         return
     else:
         ingestion_log['collection_name'] = coll_name
+    
+    log_ingestion('start')
+    start_time_main = time.time()
+    start_time_tmp = time.time()
+    elapsed_time_tmp = 0
     
     if config.ingestion[f'drop_coll_{coll_name}']:
         db = client['db']
