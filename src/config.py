@@ -1,12 +1,12 @@
 
 control = { 
-    "start_ingestion_prices":False,             # Enable or disable ingestion for collection prices
+    "start_ingestion_prices":True,             # Enable or disable ingestion for collection prices
     "start_ingestion_stations":False,           # Enable or disable ingestion for collection stations
-    "start_query":True,                         # Enable or disable query
+    "start_query":False,                         # Enable or disable query
 }
 
 ingestion = {
-    "drop_coll_prices":False,                       # drop(delete) complete price collection if started new ingestion
+    "drop_coll_prices":True,                       # drop(delete) complete price collection if started new ingestion
     "drop_coll_stations":True,                      # drop(delete)  complete price collection if started new ingestion
     "type_prices":"month",                          # available: "month","year","all"
     "year_prices": "2015",                          # available: "2014","2015", ... , "2022"

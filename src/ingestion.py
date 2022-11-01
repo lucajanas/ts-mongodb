@@ -136,7 +136,7 @@ def ingestion_handling(client,files,coll_name):
             tmp_counter = 0
 
             # get db stats
-            db_stats = db.command({
+            db_stats = client['db'].command({
                 'dbStats': 1,
                 'scale':  config.ingestion['storage_scale']
             })
