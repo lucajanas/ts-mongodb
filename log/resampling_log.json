@@ -1,1 +1,2168 @@
-{"2022-11-03 20:47:02": {"configuration": {"start_year": 2015, "start_month": 6, "start_day": 4, "start_hour": 0, "start_minute": 0, "start_second": 0, "end_year": 2015, "end_month": 6, "end_day": 30, "end_hour": 23, "end_minute": 59, "end_second": 59, "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e", "frequency": "hour"}, "log": {"start_time": "2022-11-03 20:47:02", "end_time": "2022-11-03 20:47:04"}}, "2022-11-03 20:48:40": {"system_info": {"system": "Windows", "release": "10", "version": "10.0.19044", "machine": "AMD64", "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel", "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz", "physical_cores": 4, "max_frequency": "1992.00Mhz"}, "configuration": {"start_year": 2015, "start_month": 6, "start_day": 4, "start_hour": 0, "start_minute": 0, "start_second": 0, "end_year": 2015, "end_month": 6, "end_day": 30, "end_hour": 23, "end_minute": 59, "end_second": 59, "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e", "frequency": "hour"}, "log": {"start_time": "2022-11-03 20:48:40", "end_time": "2022-11-03 20:48:42"}}, "2022-11-07 16:02:54": {"system_info": {"system": "Windows", "release": "10", "version": "10.0.19043", "machine": "AMD64", "processor": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD", "processor_detail": "AMD Ryzen 9 5950X 16-Core Processor", "physical_cores": 16, "max_frequency": "3401.00Mhz"}, "configuration": {"start_year": 2015, "start_month": 6, "start_day": 4, "start_hour": 0, "start_minute": 0, "start_second": 0, "end_year": 2015, "end_month": 6, "end_day": 30, "end_hour": 23, "end_minute": 59, "end_second": 59, "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e", "frequency": "hour"}, "log": {"start_time": "2022-11-07 16:02:54", "end_time": "2022-11-07 16:03:52"}}, "2022-11-11 19:03:36": {"system_info": {"system": "Windows", "release": "10", "version": "10.0.19043", "machine": "AMD64", "processor": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD", "processor_detail": "AMD Ryzen 9 5950X 16-Core Processor", "physical_cores": 16, "max_frequency": "3401.00Mhz"}, "configuration": {"start_year": 2015, "start_month": 6, "start_day": 4, "start_hour": 0, "start_minute": 0, "start_second": 0, "end_year": 2015, "end_month": 6, "end_day": 30, "end_hour": 23, "end_minute": 59, "end_second": 59, "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e", "frequency": "hour"}, "log": {"start_time": "2022-11-11 19:03:36", "end_time": "2022-11-11 19:04:37"}}}
+{
+    "2022-11-03 20:47:02": {
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-03 20:47:02",
+            "end_time": "2022-11-03 20:47:04"
+        }
+    },
+    "2022-11-03 20:48:40": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19044",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-03 20:48:40",
+            "end_time": "2022-11-03 20:48:42"
+        }
+    },
+    "2022-11-12 10:54:03": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-12 10:54:03",
+            "end_time": "2022-11-12 10:54:35",
+            "cursor2_time": "2022-11-12 10:54:30"
+        }
+    },
+    "2022-11-12 11:00:33": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 11:00:33",
+            "end_time": "2022-11-12 11:01:06",
+            "cursor2_time": "2022-11-12 11:01:01"
+        }
+    },
+    "2022-11-12 11:04:23": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 11:04:23",
+            "end_time": "2022-11-12 11:04:36",
+            "cursor2_time": "2022-11-12 11:04:34"
+        }
+    },
+    "2022-11-12 11:07:57": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-12 11:07:57",
+            "end_time": "2022-11-12 11:08:08",
+            "cursor2_time": "2022-11-12 11:08:06"
+        }
+    },
+    "2022-11-12 11:10:27": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-12 11:10:27",
+            "end_time": "2022-11-12 11:10:37",
+            "cursor2_time": "2022-11-12 11:10:36"
+        }
+    },
+    "2022-11-12 11:11:16": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-12 11:11:16",
+            "end_time": "2022-11-12 11:11:27",
+            "cursor2_time": "2022-11-12 11:11:25"
+        }
+    },
+    "2022-11-12 11:11:57": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 11:11:57",
+            "end_time": "2022-11-12 11:12:08",
+            "cursor2_time": "2022-11-12 11:12:06"
+        }
+    },
+    "2022-11-12 11:13:18": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 11:13:18",
+            "end_time": "2022-11-12 11:13:29",
+            "cursor2_time": "2022-11-12 11:13:27"
+        }
+    },
+    "2022-11-12 11:14:08": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "day"
+        },
+        "log": {
+            "start_time": "2022-11-12 11:14:08",
+            "end_time": "2022-11-12 11:14:18",
+            "cursor2_time": "2022-11-12 11:14:17"
+        }
+    },
+    "2022-11-12 11:14:38": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "day"
+        },
+        "log": {
+            "start_time": "2022-11-12 11:14:38",
+            "end_time": "2022-11-12 11:14:49",
+            "cursor2_time": "2022-11-12 11:14:47"
+        }
+    },
+    "2022-11-12 11:15:30": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 11:15:30",
+            "end_time": "2022-11-12 11:15:41",
+            "cursor2_time": "2022-11-12 11:15:39"
+        }
+    },
+    "2022-11-12 13:20:59": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:20:59",
+            "end_time": "2022-11-12 13:21:01",
+            "cursor2_time": "2022-11-12 13:20:59"
+        }
+    },
+    "2022-11-12 13:22:05": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "day"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:22:05",
+            "end_time": "2022-11-12 13:22:06",
+            "cursor2_time": "2022-11-12 13:22:05"
+        }
+    },
+    "2022-11-12 13:22:47": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:22:47",
+            "end_time": "2022-11-12 13:22:49",
+            "cursor2_time": "2022-11-12 13:22:47"
+        }
+    },
+    "2022-11-12 13:23:13": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:23:13",
+            "end_time": "2022-11-12 13:23:14",
+            "cursor2_time": "2022-11-12 13:23:13"
+        }
+    },
+    "2022-11-12 13:23:41": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:23:41",
+            "end_time": "2022-11-12 13:23:43",
+            "cursor2_time": "2022-11-12 13:23:41"
+        }
+    },
+    "2022-11-12 13:24:22": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:24:22",
+            "end_time": "2022-11-12 13:24:24",
+            "cursor2_time": "2022-11-12 13:24:22"
+        }
+    },
+    "2022-11-12 13:47:34": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:47:34",
+            "end_time": "2022-11-12 13:48:05",
+            "cursor2_time": "2022-11-12 13:48:00"
+        }
+    },
+    "2022-11-12 13:48:56": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:48:56",
+            "end_time": "2022-11-12 13:49:29",
+            "cursor2_time": "2022-11-12 13:49:24"
+        }
+    },
+    "2022-11-12 13:50:02": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:50:02",
+            "end_time": "2022-11-12 13:50:13",
+            "cursor2_time": "2022-11-12 13:50:12"
+        }
+    },
+    "2022-11-12 13:50:59": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:50:59",
+            "end_time": "2022-11-12 13:51:10",
+            "cursor2_time": "2022-11-12 13:51:09"
+        }
+    },
+    "2022-11-12 13:51:33": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "day"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:51:33",
+            "end_time": "2022-11-12 13:51:44",
+            "cursor2_time": "2022-11-12 13:51:42"
+        }
+    },
+    "2022-11-12 13:52:36": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:52:36",
+            "end_time": "2022-11-12 13:52:46",
+            "cursor2_time": "2022-11-12 13:52:44"
+        }
+    },
+    "2022-11-12 13:53:16": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:53:16",
+            "end_time": "2022-11-12 13:53:27",
+            "cursor2_time": "2022-11-12 13:53:25"
+        }
+    },
+    "2022-11-12 13:54:33": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 13:54:33",
+            "end_time": "2022-11-12 13:54:45",
+            "cursor2_time": "2022-11-12 13:54:42"
+        }
+    },
+    "2022-11-12 14:00:58": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:00:58",
+            "end_time": "2022-11-12 14:01:10",
+            "cursor2_time": "2022-11-12 14:01:07"
+        }
+    },
+    "2022-11-12 14:11:39": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 1,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:11:39",
+            "end_time": "2022-11-12 14:11:42",
+            "cursor2_time": "2022-11-12 14:11:40"
+        }
+    },
+    "2022-11-12 14:13:06": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 1,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:13:06",
+            "end_time": "2022-11-12 14:13:09",
+            "cursor2_time": "2022-11-12 14:13:07"
+        }
+    },
+    "2022-11-12 14:14:14": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 8,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 8,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:14:14",
+            "end_time": "2022-11-12 14:14:29",
+            "cursor2_time": "2022-11-12 14:14:29"
+        }
+    },
+    "2022-11-12 14:15:26": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 8,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 8,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:15:26",
+            "end_time": "2022-11-12 14:15:37",
+            "cursor2_time": "2022-11-12 14:15:37"
+        }
+    },
+    "2022-11-12 14:16:13": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 4,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 4,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:16:13",
+            "end_time": "2022-11-12 14:16:20",
+            "cursor2_time": "2022-11-12 14:16:18"
+        }
+    },
+    "2022-11-12 14:29:15": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:29:15",
+            "end_time": "2022-11-12 14:29:17",
+            "cursor2_time": "2022-11-12 14:29:16"
+        }
+    },
+    "2022-11-12 14:29:44": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:29:44",
+            "end_time": "2022-11-12 14:29:46",
+            "cursor2_time": "2022-11-12 14:29:44"
+        }
+    },
+    "2022-11-12 14:32:15": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:32:15",
+            "end_time": "2022-11-12 14:32:16",
+            "cursor2_time": "2022-11-12 14:32:15"
+        }
+    },
+    "2022-11-12 14:41:25": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:41:25",
+            "end_time": "2022-11-12 14:41:33",
+            "cursor2_time": "2022-11-12 14:41:31"
+        }
+    },
+    "2022-11-12 14:41:46": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:41:46",
+            "end_time": "2022-11-12 14:41:50",
+            "cursor2_time": "2022-11-12 14:41:48"
+        }
+    },
+    "2022-11-12 14:42:12": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:42:12",
+            "end_time": "2022-11-12 14:42:16",
+            "cursor2_time": "2022-11-12 14:42:14"
+        }
+    },
+    "2022-11-12 14:42:43": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:42:43",
+            "end_time": "2022-11-12 14:42:47",
+            "cursor2_time": "2022-11-12 14:42:45"
+        }
+    },
+    "2022-11-12 14:48:14": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:48:14",
+            "end_time": "2022-11-12 14:48:30",
+            "cursor2_time": "2022-11-12 14:48:26"
+        }
+    },
+    "2022-11-12 14:48:54": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:48:54",
+            "end_time": "2022-11-12 14:49:01",
+            "cursor2_time": "2022-11-12 14:48:59"
+        }
+    },
+    "2022-11-12 14:49:16": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:49:16",
+            "end_time": "2022-11-12 14:49:21",
+            "cursor2_time": "2022-11-12 14:49:19"
+        }
+    },
+    "2022-11-12 14:49:38": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:49:38",
+            "end_time": "2022-11-12 14:49:43",
+            "cursor2_time": "2022-11-12 14:49:42"
+        }
+    },
+    "2022-11-12 14:50:00": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 6,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:50:00",
+            "end_time": "2022-11-12 14:50:05",
+            "cursor2_time": "2022-11-12 14:50:04"
+        }
+    },
+    "2022-11-12 14:53:21": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 4,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:53:21",
+            "end_time": "2022-11-12 14:53:27",
+            "cursor2_time": "2022-11-12 14:53:21"
+        }
+    },
+    "2022-11-12 14:53:49": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 4,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 14:53:49",
+            "end_time": "2022-11-12 14:53:54",
+            "cursor2_time": "2022-11-12 14:53:49"
+        }
+    },
+    "2022-11-12 15:00:09": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 4,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:00:09",
+            "end_time": "2022-11-12 15:00:14",
+            "cursor2_time": "2022-11-12 15:00:09"
+        }
+    },
+    "2022-11-12 15:02:34": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 5,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:02:34",
+            "end_time": "2022-11-12 15:02:39",
+            "cursor2_time": "2022-11-12 15:02:36"
+        }
+    },
+    "2022-11-12 15:03:01": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 5,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:03:01",
+            "end_time": "2022-11-12 15:03:06",
+            "cursor2_time": "2022-11-12 15:03:02"
+        }
+    },
+    "2022-11-12 15:03:20": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 5,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:03:20",
+            "end_time": "2022-11-12 15:03:25",
+            "cursor2_time": "2022-11-12 15:03:22"
+        }
+    },
+    "2022-11-12 15:20:04": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:20:04",
+            "end_time": "2022-11-12 15:20:39",
+            "cursor2_time": "2022-11-12 15:20:04"
+        }
+    },
+    "2022-11-12 15:21:50": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:21:50",
+            "end_time": "2022-11-12 15:22:06",
+            "cursor2_time": "2022-11-12 15:21:50"
+        }
+    },
+    "2022-11-12 15:23:15": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:23:15",
+            "end_time": "2022-11-12 15:23:25",
+            "cursor2_time": "2022-11-12 15:23:15"
+        }
+    },
+    "2022-11-12 15:24:07": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:24:07",
+            "end_time": "2022-11-12 15:24:21",
+            "cursor2_time": "2022-11-12 15:24:07"
+        }
+    },
+    "2022-11-12 15:24:54": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:24:54",
+            "end_time": "2022-11-12 15:25:06",
+            "cursor2_time": "2022-11-12 15:24:54"
+        }
+    },
+    "2022-11-12 15:25:42": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:25:42",
+            "end_time": "2022-11-12 15:25:54",
+            "cursor2_time": "2022-11-12 15:25:43"
+        }
+    },
+    "2022-11-12 15:26:30": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:26:30",
+            "end_time": "2022-11-12 15:26:42",
+            "cursor2_time": "2022-11-12 15:26:30"
+        }
+    },
+    "2022-11-12 15:27:29": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:27:29",
+            "end_time": "2022-11-12 15:27:39",
+            "cursor2_time": "2022-11-12 15:27:29"
+        }
+    },
+    "2022-11-12 15:28:16": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "day"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:28:16",
+            "end_time": "2022-11-12 15:28:27",
+            "cursor2_time": "2022-11-12 15:28:17"
+        }
+    },
+    "2022-11-12 15:28:56": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "day"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:28:56",
+            "end_time": "2022-11-12 15:29:06",
+            "cursor2_time": "2022-11-12 15:28:56"
+        }
+    },
+    "2022-11-12 15:30:11": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 4,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 6,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "minute"
+        },
+        "log": {
+            "start_time": "2022-11-12 15:30:11",
+            "end_time": "2022-11-12 15:30:22",
+            "cursor2_time": "2022-11-12 15:30:16"
+        }
+    },
+    "2022-11-12 16:25:48": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 12,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-12 16:25:48",
+            "end_time": "2022-11-12 16:27:01",
+            "cursor2_time": "2022-11-12 16:25:48"
+        }
+    },
+    "2022-11-12 16:29:28": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 12,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "hour"
+        },
+        "log": {
+            "start_time": "2022-11-12 16:29:28",
+            "end_time": "2022-11-12 16:30:41",
+            "cursor2_time": "2022-11-12 16:29:29"
+        }
+    },
+    "2022-11-12 16:32:49": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 12,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "day"
+        },
+        "log": {
+            "start_time": "2022-11-12 16:32:49",
+            "end_time": "2022-11-12 16:34:02",
+            "cursor2_time": "2022-11-12 16:32:50"
+        }
+    },
+    "2022-11-12 16:35:39": {
+        "system_info": {
+            "system": "Windows",
+            "release": "10",
+            "version": "10.0.19045",
+            "machine": "AMD64",
+            "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+            "processor_detail": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+            "physical_cores": 4,
+            "max_frequency": "1992.00Mhz"
+        },
+        "configuration": {
+            "start_year": 2015,
+            "start_month": 1,
+            "start_day": 4,
+            "start_hour": 0,
+            "start_minute": 0,
+            "start_second": 0,
+            "end_year": 2015,
+            "end_month": 12,
+            "end_day": 30,
+            "end_hour": 23,
+            "end_minute": 59,
+            "end_second": 59,
+            "station": "3907c523-3831-4eaf-aec3-d88cc68f5b2e",
+            "frequency": "week"
+        },
+        "log": {
+            "start_time": "2022-11-12 16:35:39",
+            "end_time": "2022-11-12 16:36:52",
+            "cursor2_time": "2022-11-12 16:35:40"
+        }
+    }
+}
