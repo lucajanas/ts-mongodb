@@ -46,6 +46,7 @@ def insert_from_csv(client, csv_path, db_name, coll_name,convert_date=False):
 if __name__ == "__main__":
     
     from os.path import dirname, abspath
+    
     # inserting price data
     price_path = dirname(dirname(abspath(__file__))) + '/data/tankerkoenig-data/prices'
     files = get_files_to_extension(price_path, '.csv', 'prices')
@@ -54,15 +55,11 @@ if __name__ == "__main__":
     client = connect()
     print('Connected!')
     ing.ingestion_handling(client, files, 'prices')
-    
-    ################################################################
 
     # inserting station data
     station_path = dirname(dirname(abspath(__file__))) + '/data/tankerkoenig-data/stations'
     files = get_files_to_extension(station_path, '.csv', 'stations')
     ing.ingestion_handling(client, files, 'stations')
-    
-    ################################################################
     
     # query 
     query.query_handling(client)
