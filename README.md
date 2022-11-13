@@ -76,9 +76,9 @@ The requests refer to a fully filled database (until 19.10.2022)
 
 ### Performance
 
-Query: Find all gas stations that have a price change in dieselchange or e5change or e10change
-Period: 28.09.2022 0:0:0 until 30.09.2022 23.59.59
-City: Meschede 59872
+Query: Find all gas stations that have a price change in dieselchange or e5change or e10change  
+Period: 28.09.2022 0:0:0 until 30.09.2022 23.59.59  
+City: Meschede 59872  
 
 The above query took mongo db 15.46 seconds to complete.
 
