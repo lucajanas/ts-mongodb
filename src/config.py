@@ -1,9 +1,9 @@
 import datetime
-control = { 
+control = {                                     # Please execute only one of the following 4 possible actions at the same time
     "start_ingestion_prices":False,             # Enable or disable ingestion for collection prices
     "start_ingestion_stations":False,           # Enable or disable ingestion for collection stations
-    "start_query":False,                         # Enable or disable query
-    "start_resampling":True                        # Enable or disable resampling
+    "start_query":True,                         # Enable or disable query
+    "start_resampling":False                    # Enable or disable resampling
 }
 
 ingestion = {
@@ -22,22 +22,22 @@ ingestion = {
 }
 
 query = { 
-   "year_start":2015,
-   "month_start":1,
-   "day_start":1,
+   "year_start":2022,
+   "month_start":9,
+   "day_start":28,
    "hour_start":0,
    "minute_start":0,
    "second_start":0,
-   "year_end":2015,
-   "month_end":1,
-   "day_end":1,
+   "year_end":2022,
+   "month_end":9,
+   "day_end":30,
    "hour_end":23,
    "minute_end":59,
    "second_end":59,    
-   "post_code":"32049",
-   "change_type":"e5change",                      # available: "dieselchange", "e5change", "e10change", "all"
-   "print_interested_stations":True,
-   'save_all_stations_with_changes':True
+   "post_code":"59872",
+   "change_type":"all",                           # available: "dieselchange", "e5change", "e10change", "all"
+   "print_interested_stations":False,             # if True, then all founded stations are output to the console
+   'save_all_stations_with_changes':False         # if True, all founded stations will be stored in query_log.json
 }
 
 resampling = {
@@ -53,6 +53,6 @@ resampling = {
     'end_hour':23,
     'end_minute':59,
     'end_second':59,
-    'station':'3907c523-3831-4eaf-aec3-d88cc68f5b2e', #station to be resampled
-    'frequency':'hour' #resampling frequency (available: 'second', 'minute', 'hour', 'day', 'week')
+    'station':'3907c523-3831-4eaf-aec3-d88cc68f5b2e', # station to be resampled
+    'frequency':'hour'                                # resampling frequency (available: 'second', 'minute', 'hour', 'day', 'week')
 }
